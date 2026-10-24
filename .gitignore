@@ -1,0 +1,13 @@
+# Presentaciones generadas por los ejemplos y pruebas
+salida/
+
+# Entornos y cachés
+.venv/
+venv/
+.cache/
+__pycache__/
+*.pyc
+
+# Archivos temporales de Office / LibreOffice
+~$*
+.~lock.*
