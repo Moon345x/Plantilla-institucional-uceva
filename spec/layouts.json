@@ -1,0 +1,1375 @@
+{
+  "_leeme": "Generado por scripts/extraer_plantilla.py desde el .pptx. No editar a mano: vuelve a ejecutar el script.",
+  "patron": {
+    "parte": "ppt/slideMasters/slideMaster1.xml",
+    "fondo": "assets/img/fondo_contenido.jpg",
+    "marcadores": {
+      "title": {
+        "emu": {
+          "x": 838200,
+          "y": 365125,
+          "ancho": 10515600,
+          "alto": 1325563
+        },
+        "pulgadas": {
+          "x": 0.917,
+          "y": 0.399,
+          "ancho": 11.5,
+          "alto": 1.45
+        }
+      },
+      "body": {
+        "emu": {
+          "x": 838200,
+          "y": 1825625,
+          "ancho": 10515600,
+          "alto": 4351338
+        },
+        "pulgadas": {
+          "x": 0.917,
+          "y": 1.997,
+          "ancho": 11.5,
+          "alto": 4.759
+        }
+      },
+      "dt": {
+        "emu": {
+          "x": 838200,
+          "y": 6356350,
+          "ancho": 2743200,
+          "alto": 365125
+        },
+        "pulgadas": {
+          "x": 0.917,
+          "y": 6.951,
+          "ancho": 3.0,
+          "alto": 0.399
+        }
+      },
+      "ftr": {
+        "emu": {
+          "x": 4038600,
+          "y": 6356350,
+          "ancho": 4114800,
+          "alto": 365125
+        },
+        "pulgadas": {
+          "x": 4.417,
+          "y": 6.951,
+          "ancho": 4.5,
+          "alto": 0.399
+        }
+      },
+      "sldNum": {
+        "emu": {
+          "x": 8610600,
+          "y": 6356350,
+          "ancho": 2743200,
+          "alto": 365125
+        },
+        "pulgadas": {
+          "x": 9.417,
+          "y": 6.951,
+          "ancho": 3.0,
+          "alto": 0.399
+        }
+      }
+    }
+  },
+  "layouts": [
+    {
+      "indice": 0,
+      "nombre": "Diapositiva de título",
+      "tipo": "title",
+      "parte": "ppt/slideLayouts/slideLayout1.xml",
+      "usado_por_muestras": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "para_que_sirve": "Diseño usado por casi todas las muestras (1, 2, 4-11) y por la librería. Hereda el fondo del patrón (logo + figuras grises). Sus marcadores (título y subtítulo) NO se usan: se borran y el contenido se pone con formas propias.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "ctrTitle",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 1524000,
+              "y": 1122363,
+              "ancho": 9144000,
+              "alto": 2387600
+            },
+            "pulgadas": {
+              "x": 1.667,
+              "y": 1.227,
+              "ancho": 10.0,
+              "alto": 2.611
+            }
+          }
+        },
+        {
+          "tipo": "subTitle",
+          "idx": "1",
+          "nombre": "Subtítulo 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 1524000,
+              "y": 3602038,
+              "ancho": 9144000,
+              "alto": 1655762
+            },
+            "pulgadas": {
+              "x": 1.667,
+              "y": 3.939,
+              "ancho": 10.0,
+              "alto": 1.811
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 1,
+      "nombre": "Título y objetos",
+      "tipo": "obj",
+      "parte": "ppt/slideLayouts/slideLayout2.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 365125,
+              "ancho": 10515600,
+              "alto": 1325563
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 0.399,
+              "ancho": 11.5,
+              "alto": 1.45
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de contenido 2",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 1825625,
+              "ancho": 10515600,
+              "alto": 4351338
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 1.997,
+              "ancho": 11.5,
+              "alto": 4.759
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 2,
+      "nombre": "Encabezado de sección",
+      "tipo": "secHead",
+      "parte": "ppt/slideLayouts/slideLayout3.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 831850,
+              "y": 1709738,
+              "ancho": 10515600,
+              "alto": 2852737
+            },
+            "pulgadas": {
+              "x": 0.91,
+              "y": 1.87,
+              "ancho": 11.5,
+              "alto": 3.12
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de texto 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 831850,
+              "y": 4589463,
+              "ancho": 10515600,
+              "alto": 1500187
+            },
+            "pulgadas": {
+              "x": 0.91,
+              "y": 5.019,
+              "ancho": 11.5,
+              "alto": 1.641
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 3,
+      "nombre": "Dos objetos",
+      "tipo": "twoObj",
+      "parte": "ppt/slideLayouts/slideLayout4.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 365125,
+              "ancho": 10515600,
+              "alto": 1325563
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 0.399,
+              "ancho": 11.5,
+              "alto": 1.45
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de contenido 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 1825625,
+              "ancho": 5181600,
+              "alto": 4351338
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 1.997,
+              "ancho": 5.667,
+              "alto": 4.759
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "2",
+          "nombre": "Marcador de contenido 3",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 6172200,
+              "y": 1825625,
+              "ancho": 5181600,
+              "alto": 4351338
+            },
+            "pulgadas": {
+              "x": 6.75,
+              "y": 1.997,
+              "ancho": 5.667,
+              "alto": 4.759
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 6",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 4,
+      "nombre": "Comparación",
+      "tipo": "twoTxTwoObj",
+      "parte": "ppt/slideLayouts/slideLayout5.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 365125,
+              "ancho": 10515600,
+              "alto": 1325563
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 0.399,
+              "ancho": 11.5,
+              "alto": 1.45
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de texto 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 1681163,
+              "ancho": 5157787,
+              "alto": 823912
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 1.839,
+              "ancho": 5.641,
+              "alto": 0.901
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "2",
+          "nombre": "Marcador de contenido 3",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 2505075,
+              "ancho": 5157787,
+              "alto": 3684588
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 2.74,
+              "ancho": 5.641,
+              "alto": 4.03
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "3",
+          "nombre": "Marcador de texto 4",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 6172200,
+              "y": 1681163,
+              "ancho": 5183188,
+              "alto": 823912
+            },
+            "pulgadas": {
+              "x": 6.75,
+              "y": 1.839,
+              "ancho": 5.668,
+              "alto": 0.901
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "4",
+          "nombre": "Marcador de contenido 5",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 6172200,
+              "y": 2505075,
+              "ancho": 5183188,
+              "alto": 3684588
+            },
+            "pulgadas": {
+              "x": 6.75,
+              "y": 2.74,
+              "ancho": 5.668,
+              "alto": 4.03
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 6",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 7",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 8",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 5,
+      "nombre": "Solo el título",
+      "tipo": "titleOnly",
+      "parte": "ppt/slideLayouts/slideLayout6.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 365125,
+              "ancho": 10515600,
+              "alto": 1325563
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 0.399,
+              "ancho": 11.5,
+              "alto": 1.45
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 2",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 6,
+      "nombre": "En blanco",
+      "tipo": "blank",
+      "parte": "ppt/slideLayouts/slideLayout7.xml",
+      "usado_por_muestras": [
+        3
+      ],
+      "para_que_sirve": "Usado por la muestra 3. Mismo fondo del patrón, sin marcadores de título.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 1",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 2",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 7,
+      "nombre": "Contenido con título",
+      "tipo": "objTx",
+      "parte": "ppt/slideLayouts/slideLayout8.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 457200,
+              "ancho": 3932237,
+              "alto": 1600200
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 0.5,
+              "ancho": 4.3,
+              "alto": 1.75
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de contenido 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 5183188,
+              "y": 987425,
+              "ancho": 6172200,
+              "alto": 4873625
+            },
+            "pulgadas": {
+              "x": 5.668,
+              "y": 1.08,
+              "ancho": 6.75,
+              "alto": 5.33
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "2",
+          "nombre": "Marcador de texto 3",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 2057400,
+              "ancho": 3932237,
+              "alto": 3811588
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 2.25,
+              "ancho": 4.3,
+              "alto": 4.168
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 6",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 8,
+      "nombre": "Imagen con título",
+      "tipo": "picTx",
+      "parte": "ppt/slideLayouts/slideLayout9.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 457200,
+              "ancho": 3932237,
+              "alto": 1600200
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 0.5,
+              "ancho": 4.3,
+              "alto": 1.75
+            }
+          }
+        },
+        {
+          "tipo": "pic",
+          "idx": "1",
+          "nombre": "Marcador de posición de imagen 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 5183188,
+              "y": 987425,
+              "ancho": 6172200,
+              "alto": 4873625
+            },
+            "pulgadas": {
+              "x": 5.668,
+              "y": 1.08,
+              "ancho": 6.75,
+              "alto": 5.33
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "2",
+          "nombre": "Marcador de texto 3",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 839788,
+              "y": 2057400,
+              "ancho": 3932237,
+              "alto": 3811588
+            },
+            "pulgadas": {
+              "x": 0.918,
+              "y": 2.25,
+              "ancho": 4.3,
+              "alto": 4.168
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 6",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 9,
+      "nombre": "Título y texto vertical",
+      "tipo": "vertTx",
+      "parte": "ppt/slideLayouts/slideLayout10.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título 1",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 365125,
+              "ancho": 10515600,
+              "alto": 1325563
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 0.399,
+              "ancho": 11.5,
+              "alto": 1.45
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de texto vertical 2",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 1825625,
+              "ancho": 10515600,
+              "alto": 4351338
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 1.997,
+              "ancho": 11.5,
+              "alto": 4.759
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    },
+    {
+      "indice": 10,
+      "nombre": "Título vertical y texto",
+      "tipo": "vertTitleAndTx",
+      "parte": "ppt/slideLayouts/slideLayout11.xml",
+      "usado_por_muestras": [],
+      "para_que_sirve": "Diseño estándar de Office que trae el archivo; ninguna muestra lo usa. Hereda el fondo del patrón. No hace falta usarlo.",
+      "fondo": "heredado del patrón: assets/img/fondo_contenido.jpg",
+      "marcadores": [
+        {
+          "tipo": "title",
+          "idx": null,
+          "nombre": "Título vertical 1",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 8724900,
+              "y": 365125,
+              "ancho": 2628900,
+              "alto": 5811838
+            },
+            "pulgadas": {
+              "x": 9.542,
+              "y": 0.399,
+              "ancho": 2.875,
+              "alto": 6.356
+            }
+          }
+        },
+        {
+          "tipo": "body",
+          "idx": "1",
+          "nombre": "Marcador de texto vertical 2",
+          "posicion_origen": "layout",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 365125,
+              "ancho": 7734300,
+              "alto": 5811838
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 0.399,
+              "ancho": 8.458,
+              "alto": 6.356
+            }
+          }
+        },
+        {
+          "tipo": "dt",
+          "idx": "10",
+          "nombre": "Marcador de fecha 3",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 838200,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 0.917,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "ftr",
+          "idx": "11",
+          "nombre": "Marcador de pie de página 4",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 4038600,
+              "y": 6356350,
+              "ancho": 4114800,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 4.417,
+              "y": 6.951,
+              "ancho": 4.5,
+              "alto": 0.399
+            }
+          }
+        },
+        {
+          "tipo": "sldNum",
+          "idx": "12",
+          "nombre": "Marcador de número de diapositiva 5",
+          "posicion_origen": "heredada_del_patron",
+          "posicion": {
+            "emu": {
+              "x": 8610600,
+              "y": 6356350,
+              "ancho": 2743200,
+              "alto": 365125
+            },
+            "pulgadas": {
+              "x": 9.417,
+              "y": 6.951,
+              "ancho": 3.0,
+              "alto": 0.399
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

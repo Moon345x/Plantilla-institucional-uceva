@@ -1,0 +1,1616 @@
+{
+  "_leeme": "Generado por scripts/extraer_plantilla.py desde el .pptx. No editar a mano: vuelve a ejecutar el script.",
+  "hoja": {
+    "ancho_emu": 12192000,
+    "alto_emu": 6858000,
+    "ancho_pulgadas": 13.333,
+    "alto_pulgadas": 7.5,
+    "proporcion": "16:9",
+    "emu_por_pulgada": 914400,
+    "emu_por_punto": 12700
+  },
+  "slides": [
+    {
+      "numero": 1,
+      "id_interno": 256,
+      "clave": "bienvenida",
+      "cuando_usarla": "Portada 'Bienvenidos'. Solo imagen de fondo (logo grande + arte 'Bienvenidos'). Para abrir un evento o una clase.",
+      "funcion_lib": "bienvenida(prs)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "propio",
+        "imagen": "assets/img/fondo_bienvenidos.png"
+      },
+      "vista_previa": "assets/previews/slide01.png",
+      "textos_de_ejemplo": [],
+      "formas": []
+    },
+    {
+      "numero": 2,
+      "id_interno": 257,
+      "clave": "portada",
+      "cuando_usarla": "Portada con título: caja morada con el título (Arial Black, blanco), marco punteado cian y subtítulo morado. El fondo trae el logo y un 'Bienvenidos' pequeño abajo a la izquierda.",
+      "funcion_lib": "portada(prs, titulo, subtitulo, autor)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "propio",
+        "imagen": "assets/img/fondo_portada.png"
+      },
+      "vista_previa": "assets/previews/slide02.png",
+      "textos_de_ejemplo": [
+        "TÍTULO DE EJEMPLO",
+        "Subtítulo de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 3",
+          "id": 4,
+          "posicion": {
+            "emu": {
+              "x": 5290457,
+              "y": 1483569,
+              "ancho": 6615404,
+              "alto": 765110
+            },
+            "pulgadas": {
+              "x": 5.786,
+              "y": 1.622,
+              "ancho": 7.235,
+              "alto": 0.837
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "6000AF",
+            "origen": "6000AF"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "TÍTULO DE EJEMPLO",
+                  "fuente": "Arial Black",
+                  "tam_pt": 32.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 5654350,
+              "y": 1166328,
+              "ancho": 6718041,
+              "alto": 1782146
+            },
+            "pulgadas": {
+              "x": 6.184,
+              "y": 1.276,
+              "ancho": 7.347,
+              "alto": 1.949
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "linea": {
+            "tipo": "solido",
+            "hex": "00E8FC",
+            "origen": "00E8FC",
+            "ancho_pt": 2.25,
+            "guion": "discontinua"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": []
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 5",
+          "id": 6,
+          "posicion": {
+            "emu": {
+              "x": 6223518,
+              "y": 2292613,
+              "ancho": 3564294,
+              "alto": 461665
+            },
+            "pulgadas": {
+              "x": 6.806,
+              "y": 2.507,
+              "ancho": 3.898,
+              "alto": 0.505
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "6000AF",
+                  "color_origen": "6000AF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "id_interno": 266,
+      "clave": "en_blanco",
+      "cuando_usarla": "En blanco con el logo del patrón arriba a la izquierda. Usa el diseño 'En blanco'. Para contenido libre.",
+      "funcion_lib": "diapositiva_en_blanco(prs)",
+      "layout": "En blanco",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide03.png",
+      "textos_de_ejemplo": [],
+      "formas": []
+    },
+    {
+      "numero": 4,
+      "id_interno": 262,
+      "clave": "contenido_etiqueta_amarilla",
+      "cuando_usarla": "Contenido con etiqueta de facultad AMARILLA arriba a la derecha + subtítulo amarillo y texto corto. (La librería deja el título en morado porque el amarillo sobre blanco no se lee bien.)",
+      "funcion_lib": "diapositiva_contenido(prs, etiqueta, titulo, color='amarillo')",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide04.png",
+      "textos_de_ejemplo": [
+        "Facultad de Ciencias Jurídicas y Humanísticas",
+        "Subtítulo de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 3",
+          "id": 4,
+          "posicion": {
+            "emu": {
+              "x": 7136946,
+              "y": 279399,
+              "ancho": 4833258,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 7.805,
+              "y": 0.306,
+              "ancho": 5.286,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "FFC403",
+            "origen": "FFC403"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Facultad de Ciencias Jurídicas y Humanísticas",
+                  "fuente": "Arial",
+                  "tam_pt": 16.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 375167,
+              "y": 1101988,
+              "ancho": 11159607,
+              "alto": 738664
+            },
+            "pulgadas": {
+              "x": 0.41,
+              "y": 1.205,
+              "ancho": 12.204,
+              "alto": 0.808
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FFC403",
+                  "color_origen": "FFC403"
+                }
+              ]
+            },
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "id_interno": 261,
+      "clave": "contenido_etiqueta_rosada",
+      "cuando_usarla": "Contenido con etiqueta de facultad ROSADA arriba a la derecha + subtítulo rosado y texto corto.",
+      "funcion_lib": "diapositiva_contenido(prs, etiqueta, titulo, color='rosado')",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide05.png",
+      "textos_de_ejemplo": [
+        "Facultad de Ciencias Jurídicas y Humanísticas",
+        "Subtítulo de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 3",
+          "id": 4,
+          "posicion": {
+            "emu": {
+              "x": 7136946,
+              "y": 279399,
+              "ancho": 4833258,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 7.805,
+              "y": 0.306,
+              "ancho": 5.286,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "FF0066",
+            "origen": "FF0066"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Facultad de Ciencias Jurídicas y Humanísticas",
+                  "fuente": "Arial",
+                  "tam_pt": 16.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 375167,
+              "y": 1101988,
+              "ancho": 11159607,
+              "alto": 738664
+            },
+            "pulgadas": {
+              "x": 0.41,
+              "y": 1.205,
+              "ancho": 12.204,
+              "alto": 0.808
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FF0066",
+                  "color_origen": "FF0066"
+                }
+              ]
+            },
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "id_interno": 258,
+      "clave": "contenido_etiqueta_morada",
+      "cuando_usarla": "Contenido con etiqueta de facultad MORADA arriba a la derecha + subtítulo morado y texto corto. Es la diapositiva de contenido principal.",
+      "funcion_lib": "diapositiva_contenido(prs, etiqueta, titulo)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide06.png",
+      "textos_de_ejemplo": [
+        "Facultad de Ciencias Jurídicas y Humanísticas",
+        "Subtítulo de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 3",
+          "id": 4,
+          "posicion": {
+            "emu": {
+              "x": 7136946,
+              "y": 279399,
+              "ancho": 4833258,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 7.805,
+              "y": 0.306,
+              "ancho": 5.286,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "6000AF",
+            "origen": "6000AF"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Facultad de Ciencias Jurídicas y Humanísticas",
+                  "fuente": "Arial",
+                  "tam_pt": 16.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 375167,
+              "y": 1101988,
+              "ancho": 11159607,
+              "alto": 738664
+            },
+            "pulgadas": {
+              "x": 0.41,
+              "y": 1.205,
+              "ancho": 12.204,
+              "alto": 0.808
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "6000AF",
+                  "color_origen": "6000AF"
+                }
+              ]
+            },
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "id_interno": 264,
+      "clave": "barra_lateral_morada",
+      "cuando_usarla": "Barra lateral izquierda MORADA de alto completo con el logo blanco; subtítulo y texto a la derecha. Para separar secciones o contenido destacado.",
+      "funcion_lib": "diapositiva_barra_lateral(prs, titulo, color='morado')",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "propio",
+        "imagen": "assets/img/fondo_barra_lateral.jpg"
+      },
+      "vista_previa": "assets/previews/slide07.png",
+      "textos_de_ejemplo": [
+        "Subtítulo de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 2185305,
+              "y": 281090,
+              "ancho": 9530445,
+              "alto": 738664
+            },
+            "pulgadas": {
+              "x": 2.39,
+              "y": 0.307,
+              "ancho": 10.423,
+              "alto": 0.808
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "6000AF",
+                  "color_origen": "6000AF"
+                }
+              ]
+            },
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo 5",
+          "id": 6,
+          "posicion": {
+            "emu": {
+              "x": 0,
+              "y": 0,
+              "ancho": 2112264,
+              "alto": 6858000
+            },
+            "pulgadas": {
+              "x": 0.0,
+              "y": 0.0,
+              "ancho": 2.31,
+              "alto": 7.5
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "6000AF",
+            "origen": "6000AF"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": []
+        },
+        {
+          "tipo": "imagen",
+          "nombre": "Imagen 6",
+          "id": 7,
+          "posicion": {
+            "emu": {
+              "x": 141572,
+              "y": 281090,
+              "ancho": 1823384,
+              "alto": 432142
+            },
+            "pulgadas": {
+              "x": 0.155,
+              "y": 0.307,
+              "ancho": 1.994,
+              "alto": 0.473
+            }
+          },
+          "geometria": "rectangulo",
+          "imagen": "assets/img/logo_55_uceva_blanco.png"
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "id_interno": 265,
+      "clave": "barra_lateral_rosada",
+      "cuando_usarla": "Barra lateral izquierda ROSADA con el logo blanco; subtítulo rosado y texto a la derecha.",
+      "funcion_lib": "diapositiva_barra_lateral(prs, titulo, color='rosado')",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "propio",
+        "imagen": "assets/img/fondo_barra_lateral.jpg"
+      },
+      "vista_previa": "assets/previews/slide08.png",
+      "textos_de_ejemplo": [
+        "Subtítulo de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 2185305,
+              "y": 281090,
+              "ancho": 9530445,
+              "alto": 738664
+            },
+            "pulgadas": {
+              "x": 2.39,
+              "y": 0.307,
+              "ancho": 10.423,
+              "alto": 0.808
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Subtítulo de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 24.0,
+                  "tam_heredado": false,
+                  "negrita": true,
+                  "color": "FF0066",
+                  "color_origen": "FF0066"
+                }
+              ]
+            },
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo 1",
+          "id": 2,
+          "posicion": {
+            "emu": {
+              "x": 0,
+              "y": 0,
+              "ancho": 2112264,
+              "alto": 6858000
+            },
+            "pulgadas": {
+              "x": 0.0,
+              "y": 0.0,
+              "ancho": 2.31,
+              "alto": 7.5
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "FF0066",
+            "origen": "FF0066"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": []
+        },
+        {
+          "tipo": "imagen",
+          "nombre": "Imagen 9",
+          "id": 10,
+          "posicion": {
+            "emu": {
+              "x": 141572,
+              "y": 281090,
+              "ancho": 1823384,
+              "alto": 432142
+            },
+            "pulgadas": {
+              "x": 0.155,
+              "y": 0.307,
+              "ancho": 1.994,
+              "alto": 0.473
+            }
+          },
+          "geometria": "rectangulo",
+          "imagen": "assets/img/logo_55_uceva_blanco.png"
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "id_interno": 259,
+      "clave": "foto_con_pie",
+      "cuando_usarla": "Foto centrada con borde blanco y sombra, etiqueta morada encima del borde inferior y un texto corto debajo.",
+      "funcion_lib": "diapositiva_foto(prs, ruta_imagen, pie, texto)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide09.png",
+      "textos_de_ejemplo": [
+        "Este es un texto corto de ejemplo",
+        "Este es un texto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 2",
+          "id": 3,
+          "posicion": {
+            "emu": {
+              "x": 4221325,
+              "y": 5818515,
+              "ancho": 3370100,
+              "alto": 307777
+            },
+            "pulgadas": {
+              "x": 4.616,
+              "y": 6.363,
+              "ancho": 3.686,
+              "alto": 0.337
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 14.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "imagen",
+          "nombre": "Imagen 4",
+          "id": 5,
+          "posicion": {
+            "emu": {
+              "x": 2907506,
+              "y": 1303337,
+              "ancho": 6376988,
+              "alto": 4251325
+            },
+            "pulgadas": {
+              "x": 3.18,
+              "y": 1.425,
+              "ancho": 6.974,
+              "alto": 4.649
+            }
+          },
+          "geometria": "rectangulo",
+          "linea": {
+            "tipo": "solido",
+            "hex": "FFFFFF",
+            "origen": "tema:bg1",
+            "ancho_pt": 6.0
+          },
+          "sombra": {
+            "desenfoque_emu": 50800,
+            "distancia_emu": 38100,
+            "direccion_grados": 45.0,
+            "color": "000000",
+            "opacidad": 0.4,
+            "xml": "<a:outerShdw blurRad=\"50800\" dist=\"38100\" dir=\"2700000\" algn=\"tl\" rotWithShape=\"0\"><a:prstClr val=\"black\"><a:alpha val=\"40000\"/></a:prstClr></a:outerShdw>"
+          },
+          "imagen": "assets/img/foto_ejemplo_campus.jpeg"
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 6",
+          "id": 7,
+          "posicion": {
+            "emu": {
+              "x": 3489746,
+              "y": 5416715,
+              "ancho": 4833258,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 3.816,
+              "y": 5.924,
+              "ancho": 5.286,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "6000AF",
+            "origen": "6000AF"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "id_interno": 263,
+      "clave": "lista_de_bloques",
+      "cuando_usarla": "Cuatro bloques apilados a la izquierda: etiqueta de color (morado, rosado, amarillo, cian) + texto corto debajo.",
+      "funcion_lib": "diapositiva_lista_de_bloques(prs, bloques)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "heredado_del_patron",
+        "imagen": "assets/img/fondo_contenido.jpg"
+      },
+      "vista_previa": "assets/previews/slide10.png",
+      "textos_de_ejemplo": [
+        "Este es un texto corto de ejemplo",
+        "Este es un texto de ejemplo",
+        "Este es un texto de ejemplo",
+        "Este es un texto corto de ejemplo",
+        "Este es un texto de ejemplo",
+        "Este es un texto corto de ejemplo",
+        "Este es un texto de ejemplo",
+        "Este es un texto corto de ejemplo"
+      ],
+      "formas": [
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 2",
+          "id": 3,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 1722374,
+              "ancho": 3370100,
+              "alto": 307777
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 1.884,
+              "ancho": 3.686,
+              "alto": 0.337
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 14.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 6",
+          "id": 7,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 1272553,
+              "ancho": 3607340,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 1.392,
+              "ancho": 3.945,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "6000AF",
+            "origen": "6000AF"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 5",
+          "id": 6,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 2405066,
+              "ancho": 3607340,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 2.63,
+              "ancho": 3.945,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "FF0066",
+            "origen": "FF0066"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 7",
+          "id": 8,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 2854889,
+              "ancho": 3370100,
+              "alto": 307777
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 3.122,
+              "ancho": 3.686,
+              "alto": 0.337
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 14.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 8",
+          "id": 9,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 3581096,
+              "ancho": 3607340,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 3.916,
+              "ancho": 3.945,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "FFC403",
+            "origen": "FFC403"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 9",
+          "id": 10,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 4074451,
+              "ancho": 3370100,
+              "alto": 307777
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 4.456,
+              "ancho": 3.686,
+              "alto": 0.337
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 14.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "forma",
+          "nombre": "Rectángulo: esquinas redondeadas 10",
+          "id": 11,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 4757126,
+              "ancho": 3607340,
+              "alto": 382685
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 5.202,
+              "ancho": 3.945,
+              "alto": 0.419
+            }
+          },
+          "geometria": "rectangulo_redondeado",
+          "radio_esquinas": "por defecto (adj 16667 = 16,7 % del lado corto)",
+          "relleno": {
+            "tipo": "solido",
+            "hex": "00E8FC",
+            "origen": "00E8FC"
+          },
+          "linea": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "centro",
+            "ajuste": "ninguno",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "centro",
+              "runs": [
+                {
+                  "texto": "Este es un texto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 18.0,
+                  "tam_heredado": true,
+                  "negrita": true,
+                  "color": "FFFFFF",
+                  "color_origen": "tema:bg1",
+                  "sombra": {
+                    "desenfoque_emu": 38100,
+                    "distancia_emu": 38100,
+                    "direccion_grados": 45.0,
+                    "color": "000000",
+                    "opacidad": 0.4314,
+                    "xml": "<a:outerShdw blurRad=\"38100\" dist=\"38100\" dir=\"2700000\" algn=\"tl\"><a:srgbClr val=\"000000\"><a:alpha val=\"43137\"/></a:srgbClr></a:outerShdw>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "cuadro_de_texto",
+          "nombre": "CuadroTexto 11",
+          "id": 12,
+          "posicion": {
+            "emu": {
+              "x": 603933,
+              "y": 5250183,
+              "ancho": 3370100,
+              "alto": 307777
+            },
+            "pulgadas": {
+              "x": 0.66,
+              "y": 5.742,
+              "ancho": 3.686,
+              "alto": 0.337
+            }
+          },
+          "geometria": "rectangulo",
+          "relleno": {
+            "tipo": "ninguno"
+          },
+          "cuadro_texto": {
+            "anclaje": "arriba",
+            "ajuste": "forma_se_ajusta_al_texto",
+            "ajuste_de_linea": true,
+            "margen_interno_emu": {
+              "lIns": 91440,
+              "tIns": 45720,
+              "rIns": 91440,
+              "bIns": 45720
+            }
+          },
+          "parrafos": [
+            {
+              "alineacion": "izquierda",
+              "runs": [
+                {
+                  "texto": "Este es un texto corto de ejemplo",
+                  "fuente": "Arial",
+                  "tam_pt": 14.0,
+                  "tam_heredado": false,
+                  "negrita": false,
+                  "color": "3B3838",
+                  "color_origen": "tema:bg2 lumMod 25%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "id_interno": 260,
+      "clave": "cierre",
+      "cuando_usarla": "Cierre: foto aérea del campus con banda morada (logo, redes y www.uceva.edu.co) en la imagen de fondo.",
+      "funcion_lib": "cierre(prs, texto_principal, texto_secundario)",
+      "layout": "Diapositiva de título",
+      "fondo": {
+        "tipo": "propio",
+        "imagen": "assets/img/fondo_cierre.png"
+      },
+      "vista_previa": "assets/previews/slide11.png",
+      "textos_de_ejemplo": [],
+      "formas": []
+    }
+  ]
+}
