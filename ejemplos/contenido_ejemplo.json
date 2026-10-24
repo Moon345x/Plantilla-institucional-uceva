@@ -1,0 +1,73 @@
+{
+  "_nota": "Datos inventados solo para mostrar la plantilla. No corresponden a personas ni cursos reales.",
+  "facultad": "Facultad de Ingeniería",
+  "portada": {
+    "titulo": "Buenas prácticas de programación",
+    "subtitulo": "Taller de ejemplo · Semestre 2026-2",
+    "autor": "Equipo docente de ejemplo",
+    "notas": "Saludo inicial. Presentar el objetivo del taller en una frase."
+  },
+  "agenda": {
+    "titulo": "Agenda del taller",
+    "subtitulo": "Tres momentos de 30 minutos",
+    "tarjetas": [
+      ["1. Leer código", "Cómo entender un programa ajeno antes de cambiarlo."],
+      ["2. Nombrar bien", "Variables y funciones que se explican solas."],
+      ["3. Probar", "Pruebas pequeñas que evitan errores repetidos."]
+    ],
+    "notas": "Recorrer la agenda rápido; el detalle viene en cada sección."
+  },
+  "tabla": {
+    "titulo": "Plan de trabajo",
+    "filas": [
+      ["Semana", "Tema", "Entregable"],
+      ["1", "Lectura de código", "Mapa del programa de ejemplo"],
+      ["2", "Nombres y funciones", "Refactorización de un módulo"],
+      ["3", "Pruebas unitarias", "Cinco pruebas que pasan"],
+      ["4", "Revisión entre pares", "Comentarios a otro equipo"]
+    ],
+    "notas": "Aclarar que las fechas exactas se publican en la plataforma."
+  },
+  "codigo": {
+    "titulo": "Una función con buen nombre",
+    "subtitulo": "Antes se llamaba f(x, y) y nadie sabía qué hacía",
+    "lenguaje": "Python",
+    "codigo": "def promedio_ponderado(notas, pesos):\n    \"\"\"Devuelve el promedio de notas según sus pesos.\"\"\"\n    if len(notas) != len(pesos):\n        raise ValueError(\"Cada nota necesita un peso\")\n    total = sum(n * p for n, p in zip(notas, pesos))\n    return total / sum(pesos)\n\n\nprint(promedio_ponderado([4.0, 3.5, 5.0], [0.3, 0.3, 0.4]))",
+    "notas": "Preguntar qué haría la función si los pesos no suman 1."
+  },
+  "imagen": {
+    "titulo": "Aprender en el campus",
+    "texto": [
+      "Las sesiones prácticas se hacen en las salas de cómputo.",
+      "Trae tu propio equipo si lo tienes; si no, hay equipos disponibles.",
+      "**Recuerda:** guarda tu trabajo en el repositorio del curso."
+    ],
+    "imagen": "assets/img/foto_ejemplo_campus.jpeg",
+    "notas": "Foto de ejemplo incluida en la plantilla."
+  },
+  "cifras": {
+    "titulo": "El taller en números",
+    "subtitulo": "Cifras inventadas para el ejemplo",
+    "cifras": [
+      ["4", "semanas de trabajo"],
+      ["12", "ejercicios guiados"],
+      ["90 %", "de pruebas automáticas al final"]
+    ],
+    "notas": "Las cifras son de ejemplo."
+  },
+  "repaso": {
+    "titulo": "Repaso",
+    "tarjetas": [
+      ["Lee antes de cambiar", "Entiende qué hace el código y quién lo usa."],
+      ["Nombres claros", "Un buen nombre ahorra un comentario."],
+      ["Funciones cortas", "Una función, una tarea."],
+      ["Prueba siempre", "Si no tiene prueba, no está terminado."]
+    ],
+    "notas": "Pedir a cada grupo que elija la práctica que más le costó."
+  },
+  "cierre": {
+    "texto_principal": "¡Gracias!",
+    "texto_secundario": "Preguntas y comentarios",
+    "notas": "Abrir espacio de preguntas."
+  }
+}
